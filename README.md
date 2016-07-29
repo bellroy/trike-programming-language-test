@@ -8,8 +8,8 @@ Although we primarily do a lot of [Ruby](https://www.ruby-lang.org/en/) programm
 
 Here is the challenge. Either:
 
-1. Take a list of `integer`s on standard input one per line and return them in reverse order on standard output, or;
-2. Take a `string` on standard input and and return the string reversed on standard output.
+1. Take a list of `integer`s on standard input, one per line, and return them in reverse order on standard output, or;
+2. Take a `string` on standard input and return the string reversed on standard output.
 
 Conditions:
 
