@@ -19,6 +19,6 @@ Conditions:
 That's it!
 
 Here are some of the languages (in no particular order) that we use at Trike on the side to help us solve problems.
-[Rust](https://www.ruby-lang.org/en/), [Swift](https://swift.org), [Haskell](haskell.org), [C](https://en.wikipedia.org/wiki/C_(programming_language))
+[Rust](https://www.ruby-lang.org/en/), [Swift](https://swift.org), [Haskell](haskell.org), [C](https://en.wikipedia.org/wiki/C_(programming_language)), [Elm](http://elm-lang.org), [Elixir](http://elixir-lang.org)
 
 Feel free to use one of these languages, or choose your own, there are [a lot of programming languages](https://en.wikipedia.org/wiki/List_of_programming_languages) to choose from :)
