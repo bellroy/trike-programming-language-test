@@ -28,7 +28,7 @@ string and see what result you get (hint: you'll know when you've done it right)
 
 Write a `EquationGuesser` class that in its constructor takes as one argument an array of integers
 (we'll call these the operands), and as another argument another integer (we'll call this the
-desired result). Your class should provide a function `guess` that takes an integer (guesses).
+desired result). Your class should provide a method `guess` that takes an integer (guesses).
 When `guess` is called, your class should attempt to output `guesses` X string representations of
 equations, their result, and the difference between that result and the desired result. Finally,
 the class should output the number of guesses and what the best guess was.
@@ -49,7 +49,7 @@ should honour [BODMAS](https://www.mathsisfun.com/operation-order-bodmas.html) b
 worry about the BO, just the DMAS.
 
 For extra points:
-* make it so your `guess` function is able to process up to 10 operands and 1000 guesses without
+* make it so your `guess` method is able to process up to 10 operands and 1000 guesses without
   taking more than 5 seconds
 * do at least one thing that reduces the average number of guesses your class needs to make for each
   call to `guess` before it is able to achieve the desired result (given that it is possible to
