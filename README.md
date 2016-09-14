@@ -52,7 +52,8 @@ For extra points:
 * make it so your `guess` function is able to process up to 10 operands and 1000 guesses without
   taking more than 5 seconds
 * do at least one thing that reduces the average number of guesses your class needs to make for each
-  call to `guess`
+  call to `guess` before it is able to achieve the desired result (given that it is possible to
+  achieve the desired result with the operands)
 
 ## Problem 3 - Expanding Your Horizons
 
