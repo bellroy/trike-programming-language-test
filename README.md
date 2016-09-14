@@ -8,7 +8,8 @@ send them to us. Do **not** submit a pull request to this repo. Send your bundle
 ## Problem 1 - String Munging
 
 Write a `StringDemystifier` class that - when its `demystify` function is called - applies the
-following rules (in order of precedence) to any string it is given in its constructor:
+following rules (in order of precedence, and until they can no longer be applied) to any string it
+is given in its constructor:
 
 * If a character has the same character to its left and right, it should be replaced with that other
   character (i.e. AWA becomes AAA) unless the surrounding character is a space
@@ -48,9 +49,10 @@ should honour [BODMAS](https://www.mathsisfun.com/operation-order-bodmas.html) b
 worry about the BO, just the DMAS.
 
 For extra points:
-* make it so your `guess` function is able to process many operands without taking forever
+* make it so your `guess` function is able to process up to 10 operands and 1000 guesses without
+  taking more than 5 seconds
 * do at least one thing that reduces the average number of guesses your class needs to make for each
-  call to `guess`.
+  call to `guess`
 
 ## Problem 3 - Expanding Your Horizons
 
