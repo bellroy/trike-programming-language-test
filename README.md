@@ -29,24 +29,28 @@ Write a `EquationGuesser` class that in its constructor takes as one argument an
 (we'll call these the operands), and as another argument another integer (we'll call this the
 desired result). Your class should provide a function `guess` that takes an integer (guesses).
 When `guess` is called, your class should attempt to output `guesses` X string representations of
-equations, their result, and the difference between that result and the desired result.
-
-If the equation is exactly equal to the desired result, the program should exit. For the sake of
-this exercise, you only need consider integers (i.e. use integer division). Your equations should
-honour [BODMAS](https://www.mathsisfun.com/operation-order-bodmas.html) but you don't need to worry
-about the BO, just the DMAS.
-
-For extra points, do something clever that reduces the average number of guesses your class needs
-to make for each call to `guess`.
+equations, their result, and the difference between that result and the desired result. Finally,
+the class should output the number of guesses and what the best guess was.
 
 e.g.
 
 ```
-> equation_guesser.new([1, 2, 3, 4], 24)
-> guesses(3)
-Guess 1: 1 + 2 + 3 + 4 = 10 (-14)
-Guess 2: 1 * 2 * 3 * 4 = 24 (0)
+> equation_guesser = EquationGuesser.new([1, 2, 3, 4], 24)
+> equation_guesser.guesses(3)
+1 + 2 + 3 + 4 = 10 (-14)
+1 * 2 * 3 * 4 = 24 (0)
+Guesses: 2 Best Guess: 1 * 2 * 3 * 4 = 24 (0)
 ```
+
+If the equation is exactly equal to the desired result, the program should exit. For the sake of
+this exercise, you only need consider positive integers (i.e. use integer division). Your equations
+should honour [BODMAS](https://www.mathsisfun.com/operation-order-bodmas.html) but you don't need to
+worry about the BO, just the DMAS.
+
+For extra points:
+* make it so your `guess` function is able to process many operands without taking forever
+* do at least one thing that reduces the average number of guesses your class needs to make for each
+  call to `guess`.
 
 ## Problem 3 - Expanding Your Horizons
 
