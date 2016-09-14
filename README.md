@@ -1,9 +1,10 @@
 # TrikeApps Programming Challenges
 
-Please complete _all_ of the following problems. Commit as you go, and use
-[git bundle](https://git-scm.com/docs/git-bundle) to bundle all your commits together so you can
-send them to us. Do **not** submit a pull request to this repo. Send your bundle through to
-[jobs@trikeapps.com](mailto:jobs@trikeapps.com).
+1. Clone (don't fork) this repo and make a branch for your changes.
+2. Please complete _all_ of the following problems. Commit as you go, and use
+   [git bundle](https://git-scm.com/docs/git-bundle) to bundle all your commits together so you can
+   send them to us. Do **not** submit a pull request to this repo.
+3. Send your bundle through to [jobs@trikeapps.com](mailto:jobs@trikeapps.com).
 
 ## Problem 1 - String Munging
 
