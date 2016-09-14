@@ -1,8 +1,16 @@
-# Trike
+# TrikeApps Programming Challenges
 
-## Problem solving
+1. Clone (don't fork) this repo and make a branch for your changes.
+2. Please complete _all_ of the following problems. Commit as you go, and use
+   [git bundle](https://git-scm.com/docs/git-bundle) to bundle all your commits together so you can
+   send them to us. Do **not** submit a pull request to this repo.
+3. Send your bundle through to [jobs@trikeapps.com](mailto:jobs@trikeapps.com).
 
-Write a class that applies the following rules (in order of precedence) to any string it is passed:
+## Problem 1 - String Munging
+
+Write a `StringDemystifier` class that - when its `demystify` function is called - applies the
+following rules (in order of precedence, and until they can no longer be applied) to any string it
+is given in its constructor:
 
 * If a character has the same character to its left and right, it should be replaced with that other
   character (i.e. AWA becomes AAA) unless the surrounding character is a space
@@ -17,7 +25,38 @@ string and see what result you get (hint: you'll know when you've done it right)
 !YTIRCO!IQIIQIDEMGMMIM FO YMJMMSM!RA !EGEEJEHT ROEOOSOF PAEJEEBEL TN!AIKIITIG ENVNNMNO ,GQGGCGN!ILEKIZIISIRT A RJRRDROF PETOTTJTS LLZLLEL!AMSXSSMS ENODOOSO
 ```
 
-## Expanding your programming comprehension
+## Problem 2 - Number Wrangling
+
+Write a `EquationGuesser` class that in its constructor takes as one argument an array of integers
+(we'll call these the operands), and as another argument another integer (we'll call this the
+desired result). Your class should provide a method `guess` that takes an integer (guesses).
+When `guess` is called, your class should attempt to output `guesses` X string representations of
+equations, their result, and the difference between that result and the desired result. Finally,
+the class should output the number of guesses and what the best guess was.
+
+e.g.
+
+```
+> equation_guesser = EquationGuesser.new([1, 2, 3, 4], 24)
+> equation_guesser.guesses(3)
+1 + 2 + 3 + 4 = 10 (-14)
+1 * 2 * 3 * 4 = 24 (0)
+Guesses: 2 Best Guess: 1 * 2 * 3 * 4 = 24 (0)
+```
+
+If the equation is exactly equal to the desired result, the program should exit. For the sake of
+this exercise, you only need consider positive integers (i.e. use integer division). Your equations
+should honour [BODMAS](https://www.mathsisfun.com/operation-order-bodmas.html) but you don't need to
+worry about the BO, just the DMAS.
+
+For extra points:
+* make it so your `guess` method is able to process up to 10 operands and 1000 guesses without
+  taking more than 5 seconds
+* do at least one thing that reduces the average number of guesses your class needs to make for each
+  call to `guess` before it is able to achieve the desired result (given that it is possible to
+  achieve the desired result with the operands)
+
+## Problem 3 - Expanding Your Horizons
 
 We love programming at Trike. We love to explore what benefits and tradeoffs that other languages
 have to offer in solving our day to day problems.
@@ -35,8 +74,6 @@ Conditions:
 
 1. You must do this in a language that you have not programmed in before.
 2. You must not use a library that provides a `reverse` method or function.
-
-That's it!
 
 Here are some of the languages (in no particular order) that we use at Trike on the side to help us
 solve problems.
