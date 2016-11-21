@@ -32,7 +32,7 @@ and a desired result. The first person to enter an equation that only uses addit
 multiplication / division, uses all of the integers and achieves the desired result wins $1,000.
 We want to win.
 
-Write a `EquationGuesser` class that in its constructor takes as one argument an sequence of
+Write a `EquationGuesser` class that in its constructor takes as one argument a sequence of
 integers (we'll call these the operands), and as another argument another integer (we'll call this
 the desired result). Your class should provide a method `guess` that takes an integer (`guesses`).
 When `guess` is called, your class should attempt to output string representations of equations,
