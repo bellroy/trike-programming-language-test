@@ -43,7 +43,7 @@ e.g.
 
 ```
 > equation_guesser = EquationGuesser.new([1, 2, 3, 4], 24)
-> equation_guesser.guesses(3)
+> equation_guesser.guess(3)
 1 + 2 + 3 + 4 = 10 (-14)
 1 * 2 * 3 * 4 = 24 (0)
 Guesses: 2 Best Guess: 1 * 2 * 3 * 4 = 24 (0)
